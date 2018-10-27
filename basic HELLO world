@@ -1,0 +1,19 @@
+In this chapter you will learn about starting with c++.
+* **Starting with including a Header file** 
+   #include<stdio.h>
+   **[it refers to stamdard input output header file which defines some macros and basic functions].**
+   #include<iostream.h>
+   **[this refers to an input output header file which includes the cout and cin objects derived from it.]**
+   **here,void main() means that a function may pass no. of arguments but does not return a value.**
+   void main()
+   { 
+    int x=0;
+    **[this is used to initialize some variable x with value 0]**
+    cout<<" \n enter a new number";
+    **[This is a object of class ostream]**
+    cin>>int y;
+    **[This is a object of class istream]**
+    getch();
+    **[it returns the output to the console.]**
+    }
+    
